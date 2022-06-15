@@ -53,17 +53,13 @@ the seConD 2
 *ctrl+c*
 
 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.
-cat > tf_4.txt *enter*
-(15 раз нажал enter)
-*ctrl+c*
+touch tf_4.txt | seq 15 > tf_4.txt
 
 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
-cat > tF_4.txt *enter*
-(13 раз нажал enter)
-*ctrl+c*
+touch tF_5.txt | seq 13 > tf_5.txt
 
 16. Вывести список всех файлов в папке.
-ls -la
+ls ls -la
 
 17. Выйти из папки inner_dir_1
 cd ..
