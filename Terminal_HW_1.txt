@@ -46,9 +46,3 @@ cd ..
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less 1.txt
 
 20) вывести дату и время - date
-
-*
-1)curl http://162.55.220.72:5005/terminal-hw-request
- curl -v http://162.55.220.72:5005/get_method?name='danylo'&age=24
-
-2) Скрипт создал через команду: nano myscript.sh
